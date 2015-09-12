@@ -11,9 +11,13 @@ module.exports = {
       exclude: /(node_modules|bower_components)/,
       loader: 'babel'
     },
-    // {
-    //   test: /\.css$/,
-    //   loader: "style!css"
-    // }
+    {
+      test: /\.css$/,
+      loader: "style!css"
+    },
+    {
+      test: /\.scss$/,
+      loader: "style!css!sass"
+    }
   ]}
 }
