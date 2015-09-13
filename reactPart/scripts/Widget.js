@@ -1,12 +1,13 @@
 var React = require('react');
 
+//Inherit
 class Widget extends React.Component {
   constructor(){
     super();
     this.state = {text: "Hello"}
   }
   _change(){
-    this.setState({text: this.state.text});
+    this.setState({text: this.state.text +'o21'});
   }
   render(){
     return (
@@ -18,5 +19,6 @@ class Widget extends React.Component {
     );
   }
 }
+
 
 module.exports = Widget;

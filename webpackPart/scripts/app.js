@@ -15,4 +15,4 @@ console.log(require('./componentC'));
 /*
   style sheet
 */
-//require('../style/buttonStyle.scss')
+require('../style/buttonStyle.scss')

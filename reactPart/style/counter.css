@@ -1,4 +1,8 @@
-#button{
+.title{
+  margin-left: 0.3em;
+}
+
+button{
   padding: .1em .3em;
   border: 1px solid rgba(0,0,0,.1);
   background: #58a linear-gradient(hsla(0,0%,100%,.2),transparent);
@@ -7,4 +11,11 @@
   text-shadow: 0 -.05em .05em rgba(0,0,0,.5); font-size: 125%;
   line-height: 1.5;
   margin-left: .2em;
+}
+
+button.decrease {
+  background-color: #c00;
+}
+button.increase {
+  background-color: #6b0;
 }

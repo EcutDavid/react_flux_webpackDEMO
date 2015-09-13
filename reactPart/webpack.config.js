@@ -1,7 +1,7 @@
 module.exports = {
   entry: [
-    'webpack-dev-server/client?http://localhost:8080',
-    'webpack/hot/only-dev-server',
+    // 'webpack-dev-server/client?http://localhost:8080',
+    // 'webpack/hot/only-dev-server',
     './scripts/app.js'],
   output: {
     path: __dirname + '/build',
@@ -12,15 +12,12 @@ module.exports = {
     {
       test: /\.js?$/,
       exclude: /(node_modules|bower_components)/,
-      loader: 'react-hot!babel'
+      loader: 'babel'
+      // loader: 'react-hot!babel'
     },
     {
       test: /\.css$/,
       loader: 'style!css'
-    },
-    {
-      test: /\.scss$/,
-      loader: 'style!css!sass'
     }
   ]}
 }
