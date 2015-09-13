@@ -1,0 +1,13 @@
+.container{
+  width: 15em;
+  margin: 3em auto;
+  border:#0099ff solid 1px;
+}
+
+.content{
+  float: left;
+}
+
+.button{
+  float: right;
+}
