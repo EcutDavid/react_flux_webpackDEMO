@@ -1,5 +1,14 @@
-"use strict"
 var React = require('react');
-var App = require('./components/app');
+require('../style/reset.css')
 
-React.render(<App />, document.body);
+var products = require('./ProductsData');
+
+var ProductList = require('./components/ProductList');
+var Cart = require('./components/Cart');
+
+React.render(
+  <div className="container">
+    <ProductList products={products}/>
+    <Cart />
+  </div>,
+  document.getElementById('app'));

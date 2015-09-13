@@ -4,15 +4,10 @@ var dispatcher = require('../dispatcher/dispatcher');
 var appConstants = require('../constants/appConstants');
 
 var appActionCreator = {
-  create: function(text) {
+  add: function(product) {
     dispatcher.dispatch({
-      actionType: appConstants.CREATE,
-      text: text
-    });
-  },
-  demo: function() {
-    dispatcher.dispatch({
-      actionType: appConstants.DEMO
+      actionType: appConstants.CART_ADD,
+      product: product
     });
   }
 };

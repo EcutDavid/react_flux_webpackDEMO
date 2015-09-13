@@ -20,8 +20,7 @@
     "events": "^1.0.2",
     "flux": "^2.1.1",
     "keymirror": "^0.1.1",
-    "object-assign": "^4.0.1",
     "react": "^0.13.3",
-    "object-assign": "^1.0.0"
+    "underscore": "^1.7.0"
   }
 }

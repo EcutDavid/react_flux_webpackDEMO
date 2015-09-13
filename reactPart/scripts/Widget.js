@@ -2,10 +2,6 @@ var React = require('react');
 require('../style/Widget.css')
 //Inherit
 class Widget extends React.Component {
-  constructor(){
-    super();
-    this.state = {text: "Hello"}
-  }
   _prompt(){
     //alert('with some wrong logic');
     alert('It works now');
