@@ -1,6 +1,7 @@
 var React = require('react');
 var CartStore = require('../stores/cartStore');
 var CartItem = require('./CartItem');
+var CartActions = require('../actions/appActionCreator');
 
 function _getCartState() {
   return {
@@ -41,11 +42,16 @@ class Cart extends React.Component{
             </tr>
           </tfoot>
         </table>
+        <button onClick={this._onClick}>Clear cart</button>
       </div>
     )
   }
   _onChange() {
     this.setState(_getCartState());
+  }
+  _onClick(event) {
+    event.preventDefault();
+    CartActions.clear();
   }
 };
 

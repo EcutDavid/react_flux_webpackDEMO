@@ -18,4 +18,18 @@ module.exports =
     "price": 500.00,
     "image": ""
   }
+  ,
+  {
+    "id": 4,
+    "name": "ITEM D",
+    "price": 22.00,
+    "image": ""
+  }
+  ,
+  {
+    "id": 5,
+    "name": "ITEM E",
+    "price": 44.00,
+    "image": ""
+  }
 ];

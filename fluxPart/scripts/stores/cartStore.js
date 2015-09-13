@@ -21,6 +21,10 @@ function _addToCart(product) {
   }
 }
 
+function _clearCart(){
+  _cartItems = [];
+}
+
 class CartStore extends EventEmitter{
   create(text){
     textList.push(text);
@@ -48,6 +52,10 @@ dispatcher.register(function(action) {
   switch(action.actionType) {
     case appConstants.CREATE:
       _addToCart(action.product)
+      cartStore.emitChange();
+      break;
+    case appConstants.CLEARCART:
+      _clearCart()
       cartStore.emitChange();
       break;
     default:
