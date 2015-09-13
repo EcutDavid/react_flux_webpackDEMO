@@ -1,20 +1,24 @@
 var React = require('react');
-
+require('../style/Widget.css')
 //Inherit
 class Widget extends React.Component {
   constructor(){
     super();
     this.state = {text: "Hello"}
   }
-  _change(){
-    this.setState({text: this.state.text +'o21'});
+  _prompt(){
+    //alert('with some wrong logic');
+    alert('It works now');
   }
   render(){
     return (
-      <div>
+      <div className="container">
         <input type="text"/>
-        <h1>{this.state.text}</h1>
-        <button onClick={this._change.bind(this)}>click me</button>
+        <input type="text"/>
+        <input type="text"/>
+        <input type="text"/>
+        <input type="text"/>
+        <button onClick={this._prompt}>click me</button>
       </div>
     );
   }

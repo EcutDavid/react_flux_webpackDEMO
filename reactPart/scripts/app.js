@@ -17,8 +17,8 @@ var React = require('react');
 // }
 // React.render(<Root />, document.querySelector('#app'));
 
-var Counter =  require('./Counter');
-//React.render(<Counter count="10"/>, document.querySelector('#app'));
+// var Counter =  require('./Counter');
+// React.render(<Counter count="10"/>, document.querySelector('#app'));
 // React.render(
 //   <div>
 //     <Counter count="20"/>
@@ -27,6 +27,6 @@ var Counter =  require('./Counter');
 //   </div>,
 //   document.querySelector('#app'));
 
-
+//display hot-loader
 // var Widget =  require('./Widget');
 // React.render(<Widget />, document.querySelector('#app'));
