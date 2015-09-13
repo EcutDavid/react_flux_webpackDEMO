@@ -1,18 +1,34 @@
 var React = require('react');
 
-// var Root = React.createElement('h1', null, "Hello world");
-
 //Define Render() using JSX syntax
 // var Root = {
 //   render(){
 //     return React.createElement('h1', null, "Hello world");
 //   }
 // }
+// var Root = {
+//   render(){
+//     return React.createElement('div', null, [
+//       React.createElement('h1', null, "Hello react"),
+//       React.createElement('p', null, "this is a demo"),
+//     ]);
+//   }
+// }
 // React.render(Root.render(), document.querySelector('#app'));
-
+//
 // class Root extends React.Component {
 //   render(){
-//     return (<h1>Hello world but use JSX syntax</h1>);
+//     return (<h1>Hello world use JSX syntax</h1>);
+//   }
+// }
+// class Root extends React.Component {
+//   render(){
+//     return (
+//       <div>
+//         <h1>Hello world use JSX syntax</h1>
+//         <p>It works</p>
+//       </div>
+//     );
 //   }
 // }
 // React.render(<Root />, document.querySelector('#app'));

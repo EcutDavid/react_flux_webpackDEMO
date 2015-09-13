@@ -5,5 +5,5 @@ var keyMirror = require('keymirror');
 //module.exports.ADDTOCART === "ADDTOCART"
 module.exports = new keyMirror({
   ADDTOCART: null,
-  CLEARCART: null
+  // CLEARCART: null
 });

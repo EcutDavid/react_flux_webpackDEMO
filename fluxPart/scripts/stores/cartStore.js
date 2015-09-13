@@ -54,10 +54,10 @@ dispatcher.register(function(action) {
       _addToCart(action.product)
       cartStore.emitChange();
       break;
-    case appConstants.CLEARCART:
-      _clearCart()
-      cartStore.emitChange();
-      break;
+    // case appConstants.CLEARCART:
+    //   _clearCart()
+    //   cartStore.emitChange();
+    //   break;
     default:
   }
 });

@@ -3,6 +3,17 @@ console.log(require('./componentB'));
 console.log(require('./componentC'));
 
 /*
+  ES 6 or ES 2015
+*/
+// class demo{
+//   static prompt(){
+//     console.log('webpack is aswsome');
+//   }
+// }
+//
+// demo.prompt();
+
+/*
   Load chunks
 */
 // var callback = () => {
@@ -15,4 +26,4 @@ console.log(require('./componentC'));
 /*
   style sheet
 */
-require('../style/buttonStyle.scss')
+// require('../style/buttonStyle.scss')

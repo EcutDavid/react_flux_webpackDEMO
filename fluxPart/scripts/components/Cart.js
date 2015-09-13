@@ -42,17 +42,17 @@ class Cart extends React.Component{
             </tr>
           </tfoot>
         </table>
-        <button onClick={this._onClick}>Clear cart</button>
+        <button onClick={_onClick}>Clear cart</button>
       </div>
     )
   }
   _onChange() {
     this.setState(_getCartState());
   }
-  _onClick(event) {
-    event.preventDefault();
-    CartActions.clear();
-  }
+  // _onClick(event) {
+  //   event.preventDefault();
+  //   CartActions.clear();
+  // }
 };
 
 module.exports = Cart;

@@ -3,8 +3,8 @@ require('../style/Widget.css')
 //Inherit
 class Widget extends React.Component {
   _prompt(){
-    //alert('with some wrong logic');
-    alert('It works now');
+    alert('with some wrong logic');
+    //alert('It works now');
   }
   render(){
     return (

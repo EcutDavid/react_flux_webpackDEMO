@@ -9,12 +9,12 @@ var appActionCreator = {
       actionType: appConstants.CART_ADD,
       product: product
     });
-  },
-  clear(){
-    dispatcher.dispatch({
-      actionType: appConstants.CLEARCART,
-    });
   }
+  // clear(){
+  //   dispatcher.dispatch({
+  //     actionType: appConstants.CLEARCART,
+  //   });
+  // }
 };
 
 
