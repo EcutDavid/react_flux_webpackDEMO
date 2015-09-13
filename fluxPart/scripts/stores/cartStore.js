@@ -6,7 +6,7 @@ var _ = require('underscore');
 
 var CHANGE_EVENT = 'change';
 var _cartItems = [];
-var _products = require('../ProductsData');
+
 
 function _addToCart(product) {
   var oldItem = _.findWhere(_cartItems, {id: product.id});
@@ -30,9 +30,6 @@ class CartStore extends EventEmitter{
   }
   getAllCartItems() {
     return _cartItems;
-  }
-  getProducts(){
-    return _products;
   }
   emitChange() {
     this.emit(CHANGE_EVENT);
