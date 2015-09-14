@@ -42,7 +42,7 @@ class Cart extends React.Component{
             </tr>
           </tfoot>
         </table>
-        <button onClick={_onClick}>Clear cart</button>
+        <button >Clear cart</button>
       </div>
     )
   }
