@@ -55,4 +55,4 @@ class Counter extends React.Component {
 //     );
 //   }
 // }
-// module.exports = Counter;
+module.exports = Counter;
