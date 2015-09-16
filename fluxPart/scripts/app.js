@@ -1,5 +1,6 @@
 var React = require('react');
 require('../style/reset.css')
+require('font-awesome/css/font-awesome.min.css');
 
 var products = require('./ProductsData');
 

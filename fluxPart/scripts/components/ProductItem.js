@@ -7,7 +7,7 @@ class Product extends React.Component{
       <tr>
         <td>{this.props.value.name}</td>
         <td className="text-right">${this.props.value.price}</td>
-        <td><button onClick={this._onClick.bind(this)}>Add to Cart</button></td>
+        <td><button onClick={this._onClick.bind(this)} className='fa fa-cart-plus'></button></td>
       </tr>
     );
   }
